@@ -1,6 +1,4 @@
-import java.io.Serializable;
-
-public class Array<T> implements Serializable {
+public class Array<T> {
     private static final int DEFAULT_LENGTH=16;
     private T[] array;
     private int length;
